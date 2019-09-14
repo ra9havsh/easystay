@@ -1,0 +1,86 @@
+.navbar .navbar-header a:hover,.navbar .navbar-header a,.navbar .navbar-header,.navbar-brand{
+     background-color: lime !important;
+     color: #fff !important;
+     text-align: center;
+     font-weight:bold;
+}
+.mida{
+    color: #00F443 !important;
+    font-size:45pt;
+    text-align: left;
+}
+
+.midb{
+    color: silver !important;
+    text-align: left;
+}
+
+.page{
+    text-align:center;
+}
+
+.jumbotron.mid{
+    background-color: white !important;
+}
+
+.buttoma{
+    color: white !important;
+    text-align: left;
+}
+
+.pagination{
+    clear:both;
+    background: #E2FDDB;
+}
+
+.pagination a {
+    text-decoration:none;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    text-decoration:none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd; text-decoration: none;}
+
+.buttomb{
+    float:left;
+    text-align: left;
+    color:white;
+    width:30%;
+    text-decoration: underline; 
+    margin: 0 15px 0px 5px;
+}
+.buttomb:hover{
+    float:left;
+    text-align: left;
+    color:white;
+    width:30%;
+    text-decoration: underline; 
+    font-weight:bold;
+    margin: 0 20px 0px 5px;
+}
+.buttomc{
+ color:white;
+ }
+ 
+.here{
+    margin: 5px 0 0 0;
+    
+}
+
+
+
+.imga{
+    float:left; 
+    width:10%; 
+    height:10%;
+    margin: 10px 10px 0 0;
+}

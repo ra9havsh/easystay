@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="lolkittens" />
+
+	<title>Untitled 1</title>
+</head>
+
+<body>
+
+<div class="container-fluid" style="background-color: #00AA00; margin:40px 0 0 0; padding:0 0 20px 0">
+   <div class="col-sm-1">
+   </div>
+   
+     <div class="col-sm-3">
+    <h3 class="buttoma">Hostel Finder</h3>
+    <a href="#>" class="buttomb"><h6>Blog</h6></a>
+    <a href="#>" class="buttomb"><h6>AboutUs</h6></a>
+ 
+    <br />
+    <a href="#>" class="buttomb"><h6>SiteMap</h6></a>
+    <a href="#>" class="buttomb"><h6>FAQ</h6></a>
+    <br />
+    </div>
+    
+     <div class="col-sm-4">
+    <h3 class="buttoma">Connect With Us</h3>
+    <a href="#>"><img src="fb.png" alt="fb" class="imga"/></a>
+    <a href="#>"><img src="insta.png" alt="insta" class="imga"/></a>
+    <a href="#>"><img src="twit.png" alt="twit" class="imga"/></a>
+    <br />
+    <br />
+    <br />        
+    <label class="buttomc">Contact no: 98XXXXXXXX, 98XXXXXXXX</label>
+     </div>
+     
+        <div class="col-sm-4">
+    <h3 class="buttoma">Send Feedback:</h3>
+        <textarea class="form-control" rows="2" id="feedback"></textarea>
+        
+   <button class="btn btn-default here" type="submit" id="clean">SEND</button>
+  
+
+
+<script>
+$(document).ready(function(){
+    $('.here').popover({content: "Yours feedback is succesfully sent", animation: true}); 
+    $("#clean").click(function(){
+        $("#feedback").val("")
+    });         
+    });
+
+});
+</script>
+     </div>
+
+</body>
+</html>
